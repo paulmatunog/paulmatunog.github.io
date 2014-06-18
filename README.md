@@ -1,4 +1,4 @@
-simpaulguy.github.io
+Paul Matunog - web designer & front-end web developer
 ====================
 
-Test Github page for my personal website.
+Personal Github page.
