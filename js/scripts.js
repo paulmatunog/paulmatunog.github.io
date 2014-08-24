@@ -8,20 +8,10 @@ $(document).ready(function() {
 		loaderVPos: '50%'
 	});
 
-  	// $('.navbar > .container').css('top', '-100px');
-  	// $('.hero-title').hide();
-  	// $('.hero-desc').hide();
-  	// $('body').jpreLoader({
-   //  	loaderVPos: '0',
-   //  	showPercentage: false
-  	// }, function() { 
-   //  $('.navbar').animate({"top":0}, 400, function() {
-   //  	$('.hero-title').fadeIn(600);
-   //  	$('.hero-desc').fadeIn(800);
-   //  	});
-  	// });
+	// WOW
+  	new WOW().init();
 
-
+ 
 	// ADD/REMOVE CLASS
 	$(document).on("scroll",function(){
 		if($(document).scrollTop()>100) {

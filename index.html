@@ -25,7 +25,7 @@
   <body>
 
   <header id="header">
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top wow fadeInDown" data-wow-delay="0.6s" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,6 +42,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#header">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -53,9 +54,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-            <img id="avatar" src="img/paul.png" height="150" width="150">
-            <h1 class="hero-title">Hi, my name is Paul!</h1>
-            <p class="hero-desc">I'm a web designer and front-end web developer from Alabel, Sarangani, Philippines. I am passionate about creating clean, usable, and engaging websites using the latest web trends and best practices that conforms the web standards.</p>
+            <img class="wow rotateIn" src="img/paul.png" height="150" width="150" data-wow-delay="1s">
+            <h1 class="hero-title wow bounceInUp" data-wow-delay="0.5s">Hi, my name is Paul!</h1>
+            <p class="hero-desc wow bounceInUp" data-wow-delay="0.7s">I'm a web designer and front-end web developer from Alabel, Sarangani, Philippines. I am passionate about creating clean, usable, and engaging websites using the latest web trends and best practices that conforms the web standards.</p>
           </div>
         </div>
       </div>
@@ -111,14 +112,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="portfolio-controls">         
+          <div class="portfolio-controls wow fadeInDown">
             <button class="filter" data-filter="all">All</button>
             <button class="filter" data-filter=".wordpress">Wordpress</button>
             <button class="filter" data-filter=".drupal">Drupal</button>
             <button class="filter" data-filter=".custom">Custom</button>
           </div>
 
-          <div id="portfolio-container">
+          <div id="portfolio-container" class="wow fadeIn">
             <div class="mix effect-zoe wordpress" data-my-order="1">
               <a href="http://www.manlymarinacove.com/" target="_blank">
                 <img src="img/portfolio/manlymarinacove.jpg" width="357" height="298">
@@ -187,19 +188,19 @@
           <p class="section-desc">I’m an experienced and passionate web designer and front-end web developer. I build websites for the modern web.</p>
         </div>
         <div class="col-md-12">
-          <div class="col-sm-12 col-md-3 skill wow fadeInUp">
+          <div class="col-sm-12 col-md-3 skill wow fadeInUp" data-wow-delay="0.1s">
             <span class="chart html5" data-percent="95"><span class="percent">95%</span></span>
             <h3>HTML5</h3>
           </div>
-          <div class="col-sm-12 col-md-3 skill wow fadeInDown">
+          <div class="col-sm-12 col-md-3 skill wow fadeInUp" data-wow-delay="0.3s">
             <span class="chart css3" data-percent="90"><span class="percent">90%</span></span>
             <h3>CSS3</h3>
           </div>
-          <div class="col-sm-12 col-md-3 skill wow fadeInUp">
+          <div class="col-sm-12 col-md-3 skill wow fadeInUp" data-wow-delay="0.5s">
             <span class="chart javascript" data-percent="85"><span class="percent">85%</span></span>
             <h3>Javascript</h3>
           </div>
-          <div class="col-sm-12 col-md-3 skill wow fadeInDown">
+          <div class="col-sm-12 col-md-3 skill wow fadeInUp" data-wow-delay="0.7s">
             <span class="chart php" data-percent="90"><span class="percent">90%</span></span>
             <h3>PHP</h3>
           </div>
@@ -220,33 +221,26 @@
           <h3>Other skills</h3>
           <p>Wordpress, Drupal, PSD to HTML, typography, web standards, gird based layout, Genesis Framework</p>
         </div>
-          <!-- <div class="col-sm-7 col-sm-offset-5"> -->
           <div class="col-sm-7">
             <ul>
-              <li>
+              <li class="wow fadeInUp" data-wow-delay="0.1s">
                 <img src="img/theglobecast.jpg" width="100">
                 <h4 class="company">The Globecast</h4>
                 <p class="position">Web Designer / Front-end Web Developer</p>
                 <p class="date">November 2011 - March 2014</p>
               </li>
-              <li>
+              <li class="wow fadeInUp" data-wow-delay="0.3s">
                 <img src="img/611.jpg" width="100">
                 <h4 class="company">Six Eleven Global Teleservices</h4>
                 <p class="position">Voicemail Transcriptionist</p>
                 <p class="date">May 2010 - November 2011</p>
               </li>
-              <li>
+              <li class="wow fadeInUp" data-wow-delay="0.5s">
                 <img src="img/segworks.jpg" width="100">
                 <h4 class="company">Segworks Technologies Corporation</h4>
                 <p class="position">Junior Programmer</p>
                 <p class="date">September 2008 - March 2010</p>
               </li>
-              <!-- <li>
-                <img src="img/611.jpg" width="100">
-                <h4 class="company">Alabel National High School</h4>
-                <p class="position">IT Support</p>
-                <p class="date">April 2007 - August 2008</p>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -266,40 +260,40 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" type="text" name="name" placeholder="Your Name">
+                      <input class="form-control wow flipInX" type="text" name="name" placeholder="Your Name" data-wow-delay="0.1s">
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" type="email" name="_replyto" placeholder="Your Email">
+                      <input class="form-control wow flipInX" type="email" name="_replyto" placeholder="Your Email" data-wow-delay="0.3s">
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row wow fadeInUp">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
+                      <textarea class="form-control wow flipInX" name="message" placeholder="Your Message" data-wow-delay="0.5s"></textarea>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-12">
-                    <input type="submit" value="Send Message">   
+                    <input class="wow flipInX" type="submit" value="Send Message" data-wow-delay="1s">   
                   </div>
                 </div>               
               </form>
             </div>
           </div>
 
-          <p class="section-desc">I am social. Feel free to connect with me.</p>
+          <p class="section-desc">I am social. Connect with me.</p>
           <div class="social">
-            <a class="facebook" href="https://www.facebook.com/paultimothymatunog" target="_blank">
+            <a class="facebook wow rotateIn" href="https://www.facebook.com/paultimothymatunog" target="_blank" data-wow-delay="0.1s">
               <i class="fa fa-facebook"></i>
             </a>
-            <a class="twitter" href="https://twitter.com/simpaulguy" target="_blank">
+            <a class="twitter wow rotateIn" href="https://twitter.com/simpaulguy" target="_blank" data-wow-delay="0.2s">
               <i class="fa fa-twitter"></i>
             </a>
-            <a class="google-plus" href="https://plus.google.com/+PaulMatunog" target="_blank">
+            <a class="google-plus wow rotateIn" href="https://plus.google.com/+PaulMatunog" target="_blank" data-wow-delay="0.3s">
               <i class="fa fa-google-plus"></i>
             </a>
           </div>
@@ -331,6 +325,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/vendor/jpreloader.min.js"></script>
     <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
     <script src="js/vendor/owl.carousel.min.js"></script>
     <script src="js/vendor/jquery.mixitup.min.js"></script>
     <script src="js/vendor/waypoints.min.js"></script>
