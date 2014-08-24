@@ -1,166 +1,340 @@
-<!doctype html>
-<html class="no-js" lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Paul Matunog - Web Designer & Front-end Web Developer</title>
+    <meta name="description" content="Web Designer & Front-end Web Developer from Alabel, Sarangani, Philippines.">
+    <meta name="author" content="Paul Matunog">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-      	<div class="panel">
-	        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-	        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-	        <p>Once you've exhausted the fun in this document, you should check out:</p>
-	        <div class="row">
-	        	<div class="large-4 medium-4 columns">
-	    		<p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-	    	</div>
-	        	<div class="large-4 medium-4 columns">
-	        		<p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-	        	</div>
-	        	<div class="large-4 medium-4 columns">
-	        		<p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-	        	</div>        
-					</div>
-      	</div>
+
+  <header id="header">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="navbar-name">
+            <a href="http://localhost/simpaulguy.github.io/">Paul Matunog</a>
+          </h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <img id="avatar" src="img/paul.png" height="150" width="150">
+            <h1 class="hero-title">Hi, my name is Paul!</h1>
+            <p class="hero-desc">I'm a web designer and front-end web developer from Alabel, Sarangani, Philippines. I am passionate about creating clean, usable, and engaging websites using the latest web trends and best practices that conforms the web standards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+  <section class="section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="carousel">
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="carousel-img">
+                    <img src="img/screens.png" width="350" height="140">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="carousel-title">Responsive Web Design</h4>
+                  <p class="carousel-desc">I build websites that adapts to any screen sizes, from mobile devices to large desktop computers.</p>  
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="carousel-img">
+                    <img src="img/html5-css3.png" width="350" height="140">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="carousel-title">HTML5 & CSS3</h4>
+                  <p class="carousel-desc">I use the latest techniques and technologies to build sites for the future.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h4 class="carousel-title">jQuery & Javascript awesomeness</h4>
+              <p class="carousel-desc">I use javascript and jQuery plugins for added aesthetics and effects to make your site engaging.</p>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-12.columns" />
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <div class="row collapse">
-				        <label>Input Label</label>
-				        <div class="small-9 columns">
-				          <input type="text" placeholder="small-9.columns" />
-				        </div>
-				        <div class="small-3 columns">
-				          <span class="postfix">.com</span>
-				        </div>
-				      </div>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Select Box</label>
-				      <select>
-				        <option value="husker">Husker</option>
-				        <option value="starbuck">Starbuck</option>
-				        <option value="hotdog">Hot Dog</option>
-				        <option value="apollo">Apollo</option>
-				      </select>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-6 medium-6 columns">
-				      <label>Choose Your Favorite</label>
-				      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-				      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-				    </div>
-				    <div class="large-6 medium-6 columns">
-				      <label>Check these out</label>
-				      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-				      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Textarea Label</label>
-				      <textarea placeholder="small-12.columns"></textarea>
-				    </div>
-				  </div>
-				</form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-			  <h5>Try one of these buttons:</h5>
-			  <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-				<div class="panel">
-        	<h5>So many components, girl!</h5>
-        	<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
         </div>
       </div>
     </div>
-    
+  </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h2 class="section-title">Portfolio</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-controls">         
+            <button class="filter" data-filter="all">All</button>
+            <button class="filter" data-filter=".wordpress">Wordpress</button>
+            <button class="filter" data-filter=".drupal">Drupal</button>
+            <button class="filter" data-filter=".custom">Custom</button>
+          </div>
+
+          <div id="portfolio-container">
+            <div class="mix effect-zoe wordpress" data-my-order="1">
+              <a href="http://www.manlymarinacove.com/" target="_blank">
+                <img src="img/portfolio/manlymarinacove.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix effect-zoe drupal" data-my-order="2">
+              <a href="http://www.worldwarships.com/" target="_blank">
+                <img src="img/portfolio/worldwarships.jpg" width="357" height="298">             
+              </a>
+            </div>
+            <div class="mix wordpress" data-my-order="3">
+              <a href="http://egeria.com.au/" target="_blank">
+                <img src="img/portfolio/egeria.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix wordpress" data-my-order="4">
+              <a href="http://reafdigital.com/" target="_blank">
+                <img src="img/portfolio/reafdigital.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix custom" data-my-order="5">
+              <a href="http://mattmar.com.au/" target="_blank">
+                <img src="img/portfolio/mattmar.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix drupal" data-my-order="6">
+              <a href="http://superherocostumes.net.au/" target="_blank">
+                <img src="img/portfolio/superherocostumes.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix drupal" data-my-order="7">
+              <a href="http://oktoberfestcostumes.com.au/" target="_blank">
+                <img src="img/portfolio/oktoberfestcostumes.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix development" data-my-order="8">
+              <a href="http://www.brisbanetokeppel.com/" target="_blank">
+                <img src="img/portfolio/brisbanetokeppel.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix wordpress" data-my-order="9">
+              <a href="http://www.fbhive.com/" target="_blank">
+                <img src="img/portfolio/fbhive.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix wordpress" data-my-order="10">
+              <a href="http://www.rqys.com.au/" target="_blank">
+                <img src="img/portfolio/rqys.jpg" width="357" height="298">
+              </a>
+            </div>
+            <div class="mix custom" data-my-order="11">
+              <a href="http://www.shippingdatabase.com/" target="_blank">
+                <img src="img/portfolio/shippingdatabase.jpg" width="357" height="298">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-desc">I’m an experienced and passionate web designer and front-end web developer. I build websites for the modern web.</p>
+        </div>
+        <div class="col-md-12">
+          <div class="col-sm-12 col-md-3 skill wow fadeInUp">
+            <span class="chart html5" data-percent="95"><span class="percent">95%</span></span>
+            <h3>HTML5</h3>
+          </div>
+          <div class="col-sm-12 col-md-3 skill wow fadeInDown">
+            <span class="chart css3" data-percent="90"><span class="percent">90%</span></span>
+            <h3>CSS3</h3>
+          </div>
+          <div class="col-sm-12 col-md-3 skill wow fadeInUp">
+            <span class="chart javascript" data-percent="85"><span class="percent">85%</span></span>
+            <h3>Javascript</h3>
+          </div>
+          <div class="col-sm-12 col-md-3 skill wow fadeInDown">
+            <span class="chart php" data-percent="90"><span class="percent">90%</span></span>
+            <h3>PHP</h3>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">Resume</h2>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-5">
+          <h3>Other skills</h3>
+          <p>Wordpress, Drupal, PSD to HTML, typography, web standards, gird based layout, Genesis Framework</p>
+        </div>
+          <!-- <div class="col-sm-7 col-sm-offset-5"> -->
+          <div class="col-sm-7">
+            <ul>
+              <li>
+                <img src="img/theglobecast.jpg" width="100">
+                <h4 class="company">The Globecast</h4>
+                <p class="position">Web Designer / Front-end Web Developer</p>
+                <p class="date">November 2011 - March 2014</p>
+              </li>
+              <li>
+                <img src="img/611.jpg" width="100">
+                <h4 class="company">Six Eleven Global Teleservices</h4>
+                <p class="position">Voicemail Transcriptionist</p>
+                <p class="date">May 2010 - November 2011</p>
+              </li>
+              <li>
+                <img src="img/segworks.jpg" width="100">
+                <h4 class="company">Segworks Technologies Corporation</h4>
+                <p class="position">Junior Programmer</p>
+                <p class="date">September 2008 - March 2010</p>
+              </li>
+              <!-- <li>
+                <img src="img/611.jpg" width="100">
+                <h4 class="company">Alabel National High School</h4>
+                <p class="position">IT Support</p>
+                <p class="date">April 2007 - August 2008</p>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-desc">Get in touch. Send me a message.</p>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <form class="contact-form" action="//forms.brace.io/simpaulguy@gmail.com" method="post" role="form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text" name="name" placeholder="Your Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" type="email" name="_replyto" placeholder="Your Email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <input type="submit" value="Send Message">   
+                  </div>
+                </div>               
+              </form>
+            </div>
+          </div>
+
+          <p class="section-desc">I am social. Feel free to connect with me.</p>
+          <div class="social">
+            <a class="facebook" href="https://www.facebook.com/paultimothymatunog" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a class="twitter" href="https://twitter.com/simpaulguy" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a class="google-plus" href="https://plus.google.com/+PaulMatunog" target="_blank">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <p>Made with <i class="fa fa-heart"></i> using <i class="fa fa-github"></i> pages.</p>
+        </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/jpreloader.min.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/jquery.mixitup.min.js"></script>
+    <script src="js/vendor/waypoints.min.js"></script>
+    <script src="js/vendor/jquery.easypiechart.min.js"></script>
+    <script src="js/scripts.min.js"></script>
   </body>
 </html>

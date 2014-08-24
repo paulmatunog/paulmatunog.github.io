@@ -1,0 +1,237 @@
+// NAVBAR
+.navbar, nav, img, li {
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.navbar-default {
+	background: none;
+	border: 0;
+	padding-top: 40px;
+
+	.navbar-header {
+
+		.navbar-name {
+
+			a {
+				color: #fff;
+				outline: none;
+
+				&:hover {
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+		}
+
+	}
+
+
+
+	.navbar-nav {
+
+		li {
+
+			a {
+				color: #fff;
+				outline: none;
+				margin: 5px 10px;
+				padding: 10px;
+
+				&:hover {
+					// color: #5ec2e7;
+					color: #fff;
+				}
+
+				&:focus {
+					background: none;
+					color: #fff;
+				}
+
+			}
+
+		}
+
+		.active {
+			a {
+				background: none;
+				color: #fff;
+
+				&:hover {
+					background: none;
+					// color: #5ec2e7;
+					color: #fff;
+				}
+
+				&:focus {
+					background: none;
+					color: #fff;
+				}	
+			}	
+		}
+
+	}
+
+}
+
+.navbar-small {
+	background-color: #ff605f;
+	padding: 10px 0;
+
+	.navbar-nav {
+		li {
+			a {
+
+				&:hover {
+					color: #fff;
+				}
+
+				&:focus {
+					color: #fff;
+				}
+
+			}
+
+		}
+
+		.active {
+			a, a:focus, a:hover {
+				background-color: #5ec2e7;
+				border-radius: 3px;
+				color: #fff;
+				outline: none;
+			}
+		}
+	}
+
+}
+
+
+
+// HERO SECTION 
+.hero {
+	padding: 200px 0;
+}
+
+
+
+// PORTFOLIO SECTION
+#portfolio {
+
+	#portfolio-container {
+		// width: 768px;
+		margin: 0 auto;
+		text-align: justify;
+		width: 755px;
+
+		.mix {
+
+			img {
+				max-width: 345px;
+			}
+
+		}
+
+	}
+
+}
+
+
+// RESUME SECTION
+#resume {
+
+	ul {
+		border-left: 2px solid #d4d4d4;
+		padding-left: 18px;
+
+		li {
+			list-style-image: url("../img/list-style.png");
+			padding: 20px 0 30px 30px;
+
+			&:first-child {
+				padding-top: 50px;
+			}
+
+			&:last-child {
+				padding-bottom: 50px;
+			}
+
+			img {
+				// float: left;
+				// margin: 10px 30px 40px;
+				margin-top: -20px;
+			}
+		}
+
+		&:before {
+			background-color: #fff;
+			color: #ccc;
+		    content: "2014";
+		    font-size: 1.125em;
+		    margin-left: -47px;
+		    padding: 5px;
+		}
+
+		&:after {
+			background-color: #fff;
+			color: #ccc;
+		    content: "2008";
+		    font-size: 1.125em;
+		    margin-left: -47px;
+		    padding: 5px;
+		}
+	}
+
+}
+
+
+
+// CONTACT SECTION
+#contact {
+	background-color: #2F2F2F;
+	text-align: center;
+
+	.section-title,
+	.section-desc {
+		color: #fff;
+	}
+
+	.contact-form {
+		margin: 40px 0 60px;
+
+		.form-group {
+			margin-bottom: 30px;
+
+			input[type="text"],
+			input[type="email"] {
+			  	height: 60px;
+			}
+
+			textarea {
+			  	height: 180px;
+			}
+		}
+
+		input[type="submit"] {
+			background-color: #ff605f;
+			border: none;
+			border-radius: 3px;
+			color: #fff;
+			cursor: pointer;
+			font-family: "Montserrat", Verdana, Arial, sans-serif;
+			font-size: 1em;
+			padding: 15px 50px;
+			text-transform: uppercase;
+			transition: all 500ms 0s ease;
+
+			&:hover {
+				background-color: #e74c3c;
+			}
+			
+		}
+
+	}
+
+}

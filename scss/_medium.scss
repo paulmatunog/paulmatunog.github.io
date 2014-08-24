@@ -1,0 +1,45 @@
+// MENU
+.fixed, nav, img, li {
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+
+
+
+// GENERAL SECTION
+.section {
+	padding: 100px 0;
+}
+
+.section-title {
+	padding-bottom: 50px;
+}
+
+
+
+// HERO SECTION
+.hero {
+	
+}
+
+
+// PORTFOLIO SECTION
+#portfolio {
+
+	#portfolio-container {
+		width: 765px;
+
+		.mix {
+
+			img {
+				max-width: 350px;
+			}		
+
+		}
+
+	}
+
+}
