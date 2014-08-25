@@ -322,38 +322,8 @@ h1, h2, h3, h4, h5, h6 {
 
 		p {
 			color: #fff;
-			font-size: 1.5em;
+			font-size: 22px;
 			font-style: italic;
-
-			&:before {
-				content: "\f10d";
-				font-family: FontAwesome;
-			    font-style: normal;
-			    font-weight: normal;
-			    text-decoration: inherit;
-
-			    color: #fff;
-			    font-size: 16px;
-			    margin-left: -20px;
-			    position: absolute;
-			    top: 10px;
-			    left: auto;
-			}
-
-			&:after {
-				content: "\f10e";
-				font-family: FontAwesome;
-			    font-style: normal;
-			    font-weight: normal;
-			    text-decoration: inherit;
-
-			    color: #fff;
-			    font-size: 16px;
-			    margin-left: 5px;
-			    position: absolute;
-			    top: 10px;
-			    right: auto;
-			}
 		}
 
 		footer {
@@ -367,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 
 			cite {
 				display: block;
-				font-size: 20px;
+				font-size: 18px;
 				text-transform: uppercase;
 			}
 
