@@ -12,15 +12,30 @@ h1, h2, h3, h4, h5, h6 {
 
 // NAVBAR
 .navbar-default {
-
+	background-color: #ff605f;
+	border: 0;
 
 	.navbar-header {
 		// margin-top: 10px;
+
+		.navbar-toggle {
+			border: 0;
+
+			.icon-bar {
+				background-color: #fff;
+				height: 3px;
+			}
+
+			&:hover, &:focus {
+				background-color: transparent;
+			}
+		}
 
 		.navbar-name {
 			margin: 0 10px;
 
 			a {
+				color: #fff;
 				font-size: 20px;
 				font-weight: bold;
 				letter-spacing: 1px;
@@ -41,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 		li {
 
 			a {
+				color: #fff;
 				font-size: 0.875em;
 				text-transform: uppercase
 
@@ -257,6 +273,14 @@ h1, h2, h3, h4, h5, h6 {
 
 // RESUME SECTION
 #resume {
+
+	.other-skills {
+
+		p {
+			padding-right: 20px;
+		}
+
+	}
 
 	ul {
 		padding: 0;
